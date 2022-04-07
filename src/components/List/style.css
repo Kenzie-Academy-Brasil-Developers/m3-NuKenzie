@@ -1,0 +1,144 @@
+.Div-list {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  align-items: center;
+}
+.Div-listNav {
+  height: 11vh;
+  display: flex;
+  align-items: center;
+}
+.Div-listP {
+  color: #212529;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 12px;
+}
+.Div-listButtons {
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  width: 73vw;
+  justify-content: center;
+}
+.List-buttonOne {
+  background-color: #fd377e;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 12px;
+  height: 4vh;
+  margin-right: 15px;
+}
+.List-buttonTwo {
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #868e96;
+  font-family: "Nunito";
+  height: 4.3vh;
+  margin-right: 15px;
+}
+.List-buttonThree {
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #868e96;
+  font-family: "Nunito";
+  height: 4.3vh;
+}
+.Div-listCard {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 31vh;
+}
+.Div-listCard img {
+  width: 80vw;
+  height: 11vh;
+  padding-left: 17px;
+}
+
+@media (min-width: 425px) {
+  .Div-listButtons {
+    width: 65vw;
+  }
+  .List-buttonOne {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Div-listCard {
+    width: 70vw;
+  }
+  .Div-list {
+    width: 70vw;
+  }
+  .Div-listButtons {
+    justify-content: flex-end;
+    width: 45vw;
+  }
+  .Div-listP {
+    width: 25vw;
+  }
+  .Div-listP p {
+    padding-right: 86px;
+  }
+  .Div-listCard img {
+    padding-left: 41px;
+    width: 58vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Div-list {
+    width: 41vw;
+    margin-left: 70px;
+    margin-top: 17px;
+  }
+  .Div-listNav {
+    width: 41vw;
+  }
+  .Div-listCard {
+    width: 40.2vw;
+    height: 70vh;
+  }
+  .Div-listButtons {
+    justify-content: flex-end;
+    width: 25vw;
+  }
+  .Div-listP {
+    width: 20vw;
+  }
+  .Div-listP p {
+    font-size: 16px;
+  }
+  .Div-listCard img {
+    width: 20vw;
+  }
+  .List-buttonOne {
+    margin-left: 0;
+    width: 7vw;
+    height: 5vh;
+    font-size: 14px;
+  }
+  .List-buttonTwo {
+    width: 7vw;
+    font-size: 14px;
+    height: 5vh;
+  }
+  .List-buttonThree {
+    width: 7vw;
+    font-size: 14px;
+    height: 5vh;
+  }
+}

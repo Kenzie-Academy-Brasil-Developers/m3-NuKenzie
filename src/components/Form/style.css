@@ -1,0 +1,168 @@
+.Div-form {
+  border: 1px solid #e9ecef;
+  width: 90vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.Form-inputDescricao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 18px;
+}
+.Form-inputDescricao input {
+  background-color: #f8f9fa;
+  color: #868e96;
+  border-radius: 5px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  height: 4vh;
+  width: 78vw;
+}
+.Form-labelOne {
+  color: #212529;
+  font-size: 12px;
+  padding-bottom: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.Form-labelTwo {
+  color: #868e96;
+  font-size: 10px;
+  padding-top: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.Form-inputSelect {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.Form-inputValor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 18px;
+}
+.Form-inputValor input {
+  background-color: #f8f9fa;
+  color: #868e96;
+  border-radius: 5px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  height: 4vh;
+  width: 31vw;
+  text-align: right;
+}
+.Form-inputValor label {
+  color: #212529;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding-bottom: 4px;
+}
+.Form-select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 35px;
+}
+.Form-select select {
+  background-color: #f8f9fa;
+  color: #868e96;
+  border-radius: 5px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  height: 4.6vh;
+  width: 35.5vw;
+}
+.Form-select label {
+  color: #212529;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding-bottom: 4px;
+}
+.Form-button {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding-left: 16px;
+}
+.Form-button button {
+  width: 79.5vw;
+  background-color: #fd377e;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  height: 5vh;
+}
+
+@media (min-width: 768px) {
+  .Div-form {
+    width: 70vw;
+  }
+  .Form-inputDescricao input {
+    width: 65vw;
+  }
+  .Form-inputValor input {
+    width: 30vw;
+  }
+  .Form-select select {
+    width: 30vw;
+  }
+  .Form-button button {
+    width: 65vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Div-form {
+    width: 35vw;
+    height: 45vh;
+    margin-top: 35px;
+  }
+  .Form-inputDescricao {
+    padding-bottom: 25px;
+  }
+  .Form-labelOne {
+    font-size: 14px;
+    padding-bottom: 7px;
+  }
+  .Form-labelTwo {
+    font-size: 12px;
+    padding-top: 7px;
+  }
+  .Form-inputValor label {
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+  .Form-select label {
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+  .Form-inputDescricao input {
+    width: 32vw;
+    height: 7vh;
+  }
+  .Form-inputValor input {
+    width: 14.5vw;
+    height: 7vh;
+  }
+  .Form-select select {
+    width: 14.5vw;
+    height: 7vh;
+  }
+  .Form-button button {
+    width: 32vw;
+    height: 7vh;
+  }
+}

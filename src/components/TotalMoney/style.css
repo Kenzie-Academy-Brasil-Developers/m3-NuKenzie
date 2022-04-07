@@ -1,0 +1,87 @@
+.Div-total {
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14vh;
+}
+.Div-totalValor {
+  width: 44vw;
+}
+.Valor-total {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #212529;
+}
+.Div-totalNumber {
+  width: 44vw;
+}
+.Valor-referente {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #868e96;
+  padding-left: 15px;
+}
+.Div-totalNumber p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fd377e;
+}
+
+@media (min-width: 425px) {
+  .Div-totalNumber {
+    width: 46vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 17px;
+    padding-bottom: 17px;
+  }
+  .Valor-total {
+    font-size: 18px;
+  }
+  .Valor-referente {
+    font-size: 13px;
+  }
+  .Div-totalNumber p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Div-total {
+    width: 70vw;
+    height: 13vh;
+  }
+  .Div-totalValor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 22px;
+    text-align: center;
+  }
+  .Div-totalNumber p {
+    padding-right: 22px;
+  }
+  .Valor-referente {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Div-total {
+    width: 35vw;
+    margin-top: 25px;
+    margin-left: 130px;
+    position: absolute;
+    top: 425px;
+  }
+}

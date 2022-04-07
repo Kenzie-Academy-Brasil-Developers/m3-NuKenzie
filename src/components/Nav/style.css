@@ -1,0 +1,52 @@
+.App-nav {
+  display: flex;
+  align-items: center;
+  width: 84vw;
+  justify-content: space-between;
+}
+.App-DivLogo {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+.App-pOne {
+  color: #fd377e;
+  padding-right: 3px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
+.App-pTwo {
+  color: #212529;
+  font-family: "Nunito";
+  font-weight: 900;
+}
+.App-nav button {
+  background-color: #e9ecef;
+  border: none;
+  height: 5vh;
+  border-radius: 5px;
+  font-family: "Nunito";
+  font-weight: 600;
+  color: #868e96;
+  font-size: 11px;
+}
+
+@media (min-width: 1024px) {
+  .App-DivLogo {
+    padding-left: 15px;
+  }
+  .App-pOne {
+    font-size: 30px;
+  }
+  .App-pTwo {
+    font-size: 30px;
+  }
+  .App-nav button {
+    width: 5vw;
+    height: 6.5vh;
+    font-size: 15px;
+  }
+  .App-navButton {
+    padding-right: 35px;
+  }
+}
